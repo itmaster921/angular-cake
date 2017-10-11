@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 1,
+    "size": "6 inch",
+		"value": 6
+	},
+	{
+    "_id": 2,
+    "size": "8 inch",
+		"value": 8
+	},
+	{
+    "_id": 3,
+    "size": "9 inch",
+		"value": 9
+	},
+	{
+    "_id": 4,
+    "size": "10 inch",
+		"value": 10
+	},
+	{
+    "_id": 5,
+    "size": "13 inch",
+		"value": 13
+	}
+]

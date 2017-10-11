@@ -1,0 +1,29 @@
+<div class="cake-list">
+
+	<section ng-init="vm.getCakeListCategoryData('cupcake')">
+
+		  <ul class="row cake-menu">
+				<h3>Cupcakes</h3>
+				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'cupcakes'}">
+					<a href="#/cupcake/{{cake._id}}">
+						<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}"/>
+						<h4>{{cake.name}}</h4>
+						<p>{{cake.description}}</p>
+					</a>
+				</li>
+			</ul>
+
+			<ul class="row cake-menu">
+				<h3>Flower Cupcakes</h3>
+				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'flower'}">
+					<a href="#/cupcake/{{cake._id}}">
+						<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}"/>
+						<h4>{{cake.name}}</h4>
+						<p>{{cake.description}}</p>
+					</a>
+				</li>
+			</ul>
+
+
+	</section>
+</div>

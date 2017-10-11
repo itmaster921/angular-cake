@@ -1,0 +1,74 @@
+<div class="container">
+	<div class="page-header"> <!-- page header -->
+	  <h1>Your Order <small>from Sucrées Desserts</small></h1>
+	</div><!-- // page header -->
+	<h3 class="centre" ng-show="vm.hasNoData">Sorry, something went wrong. Please select your order again.</h3>
+	<div ng-hide="vm.hasNoData" class="row"><!-- row -->
+		<div class="col-lg-8 col-md-8 col-xs-12 order-display"><!-- column -->
+					<h3>{{vm.cakeslists.name}} Cupcakes</h3>
+					<p>{{vm.cakeslists.short_description}}</p>
+					<h4>{{vm.cakeorder.cakePrice | currency}}</h4>
+					<p>Quantity: {{vm.cakeorder.quantityID.id}} package(s) of {{vm.cakeorder.packageID.name}}</p>
+					<p>Flavour: {{vm.cakeslists.flavours[0].value}}</p>
+
+
+
+		</div><!-- // column -->
+
+		<div class="col-lg-4 col-md-4 col-xs-12"><!-- column -->
+
+			<h4>Fill out contact info</h4>
+
+			<form ng-submit="vm.saveCakeOrder(order)" name="contactOrderForm" novalidate><!-- form -->
+				<div class="form-group">
+    			<label for="fName">First Name</label>
+    			<input type="text" ng-model="order.fName" class="form-control" name="fName" placeholder="First Name" required>
+					<div ng-show="contactOrderForm.fName.$touched">
+						<p ng-show="contactOrderForm.fName.$error.required" class="help-block">Your first name is required</p>
+					</div>
+  			</div>
+				<div class="form-group">
+    			<label for="lName">Last Name</label>
+    			<input type="text" ng-model="order.lName" class="form-control" name="lName" placeholder="Last Name" required>
+					<div ng-show="contactOrderForm.lName.$touched">
+						<p ng-show="contactOrderForm.lName.$error.required" class="help-block">Your last name is required</p>
+					</div>
+  			</div>
+				<div class="form-group">
+    			<label for="email">Email</label>
+    			<input type="email" ng-model="order.email" class="form-control" name="email" placeholder="sucreesdesserts@gmail.com" required>
+					<div ng-show="contactOrderForm.email.$touched">
+						<p ng-show="contactOrderForm.email.$error.required" class="help-block">Your email is required</p>
+						<p ng-show="contactOrderForm.email.$error.email" class="help-block">Is your email correct?</p>
+					</div>
+  			</div>
+				<div class="form-group">
+    			<label for="cellNo">Phone No.</label>
+    			<input type="text" ng-model="order.cellNo" class="form-control" ng-minlength="8" ng-maxlength="8" name="cellNo" placeholder="269-5987" required>
+					<div ng-show="contactOrderForm.cellNo.$touched">
+						<p ng-show="contactOrderForm.cellNo.$error.required" class="help-block">Your phone no. is required</p>
+						<p ng-show="contactOrderForm.cellNo.$error.maxlength" class="help-block">Is your phone no. correct?</p>
+						<p ng-show="contactOrderForm.cellNo.$error.minlength" class="help-block">Is your phone no. correct?</p>
+					</div>
+  			</div>
+				<div class="form-group">
+					<label for="cakeRequest">Cake Requirements</label>
+					<textarea ng-model="order.cakeRequest" class="form-control" name="cakeRequest" rows="4" placeholder="flavour, size, decorations, allergies, inscription etc."></textarea>
+				</div>
+				<div class="form-group">
+					<label for="collectDate">When do you want it?</label>
+					<input type="text" ng-model="order.collectDate" class="form-control" placeholder="Click to select date" ng-click="vm.openDatePicker()">
+					<br>
+					<date-picker ng-show="vm.showDatePicker" ng-model="order.collectDate" on-date-selected="vm.closeDatePicker()"></date-picker>
+				</div>
+
+
+				<div>
+					<button type="submit" ng-disabled="vm.hasErrors || contactOrderForm.$invalid" class="btn-special">Complete Order</button>
+				</div>
+			</form><!-- // form -->
+			<p></p>
+		</div><!-- // column -->
+	</div><!-- // row -->
+
+</div>

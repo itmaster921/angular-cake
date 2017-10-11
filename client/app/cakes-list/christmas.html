@@ -1,0 +1,21 @@
+<div class="cake-list">
+
+	<section ng-init="vm.getCakeListData('collection')">
+
+		<ul class="row cake-menu">
+			<h3>Christmas</h3>
+			<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'christmas'}">
+				<a href="#/collections/holiday/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul>
+
+
+
+
+	</section>
+
+</div>

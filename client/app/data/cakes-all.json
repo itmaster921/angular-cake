@@ -1,0 +1,1947 @@
+/* 1 */
+{
+    "_id" : "1",
+    "name" : "Sweet Paradise Cupcakes",
+    "type_name" : "cupcakes",
+    "short_description" : "Blossom Cupcakes",
+    "available_package" : "6 or 12 standard cupcakes",
+    "available_size" : "Standard",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 6,
+            "name" : "6 cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 12,
+            "name" : "12 cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-paradisecupcakes.jpg",
+            "bigImgUrl" : "paradisecupcakes.jpg"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "sweetparadise",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "Mint Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 3,
+            "value" : "Coconut",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 4,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 5,
+            "value" : "Lemon",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 6,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "colours" : [ 
+        {
+            "id" : 1,
+            "value" : "Red"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Orange"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Royal Blue"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Yellow"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Sky Blue"
+        }, 
+        {
+            "id" : 6,
+            "value" : "Pink"
+        }, 
+        {
+            "id" : 7,
+            "value" : "Purple"
+        }, 
+        {
+            "id" : 8,
+            "value" : "Fuchsia"
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 20.0
+        }, 
+        {
+            "id" : 2,
+            "value" : 40.0
+        }
+    ],
+    "description" : "These are good cupakes... you will eat them!",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Individual (Muffin)",
+            "value" : 3,
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "size" : "6 inch",
+            "value" : 6,
+            "price" : 12.0
+        }, 
+        {
+            "id" : 3,
+            "size" : "8 inch",
+            "value" : 8,
+            "price" : 22.0
+        }, 
+        {
+            "id" : 4,
+            "size" : "12 inch",
+            "value" : 12,
+            "price" : 32.0
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "2",
+    "name" : "Sweet Paradise Cake",
+    "type_name" : "cake",
+    "short_description" : "Blossom Cake",
+    "available_package" : "1 cake",
+    "available_size" : "8 inch",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 1,
+            "name" : "1 cake"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-paradisecake.jpg",
+            "bigImgUrl" : "paradisecake.jpg"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }
+    ],
+    "type" : "sweetparadise",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "Mint Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 3,
+            "value" : "Coconut",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 4,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 5,
+            "value" : "Lemon",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 6,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "colours" : [ 
+        {
+            "id" : 1,
+            "value" : "Red"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Orange"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Royal Blue"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Yellow"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Sky Blue"
+        }, 
+        {
+            "id" : 6,
+            "value" : "Pink"
+        }, 
+        {
+            "id" : 7,
+            "value" : "Purple"
+        }, 
+        {
+            "id" : 8,
+            "value" : "Fuchsia"
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 80.0
+        }
+    ],
+    "description" : "This is some good  cake... you will eat it!",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Individual (Muffin)",
+            "value" : 3,
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "size" : "6 inch",
+            "value" : 6,
+            "price" : 12.0
+        }, 
+        {
+            "id" : 3,
+            "size" : "8 inch",
+            "value" : 8,
+            "price" : 22.0
+        }, 
+        {
+            "id" : 4,
+            "size" : "12 inch",
+            "value" : 12,
+            "price" : 32.0
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : "3",
+    "name" : "Sweet Paradise Muffin Cupcakes",
+    "type_name" : "muffins",
+    "short_description" : "Muffin Sized Cupcakes",
+    "available_package" : "4 cupcakes",
+    "available_size" : "Indivudal Muffin",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 4,
+            "name" : "4 cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-muffincupcake.jpg",
+            "bigImgUrl" : "muffincupcake.jpg"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }
+    ],
+    "type" : "sweetparadise",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "Mint Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 3,
+            "value" : "Coconut",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 4,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 5,
+            "value" : "Lemon",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 6,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "colours" : [ 
+        {
+            "id" : 1,
+            "value" : "Red"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Orange"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Royal Blue"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Yellow"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Sky Blue"
+        }, 
+        {
+            "id" : 6,
+            "value" : "Pink"
+        }, 
+        {
+            "id" : 7,
+            "value" : "Purple"
+        }, 
+        {
+            "id" : 8,
+            "value" : "Fuchsia"
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 32.0
+        }
+    ],
+    "description" : "This is some good muffined sized cupcake... you will eat it!",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Individual (Muffin)",
+            "value" : 3,
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "size" : "6 inch",
+            "value" : 6,
+            "price" : 12.0
+        }, 
+        {
+            "id" : 3,
+            "size" : "8 inch",
+            "value" : 8,
+            "price" : 22.0
+        }, 
+        {
+            "id" : 4,
+            "size" : "12 inch",
+            "value" : 12,
+            "price" : 32.0
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : "4",
+    "name" : "Mocha",
+    "short_description" : "Mocha cake,  Coffee icing, Chocolate drizzle",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-mocha.jpg",
+            "bigImgUrl" : "mocha.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Mocha",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Mocha cake,  Coffee icing, Chocolate drizzle",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 5 */
+{
+    "_id" : "5",
+    "name" : "Cookies N' Cream",
+    "short_description" : " Cookies n’ cream cake, Cookies n’ cream icing, Cookie topping",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-cookies.jpg",
+            "bigImgUrl" : "cookies.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Cookies n' Cream",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : " Cookies n’ cream cake, Cookies n’ cream icing, Cookie topping",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 6 */
+{
+    "_id" : "6",
+    "name" : "Carrot",
+    "short_description" : "Carrot cake, Walnut pieces, Cream cheese icing,  Roasted walnuts topping",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-carrot.jpg",
+            "bigImgUrl" : "carrot.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Carrot",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Carrot cake, Walnut pieces, Cream cheese icing,  Roasted walnuts topping",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 7 */
+{
+    "_id" : "7",
+    "name" : "Chocolate Tiramasu",
+    "short_description" : "Chocolate Tiramasu...",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "category" : "cupcakes",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate Tiramasu",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Chocolate Tiramasu Cupcake",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 8 */
+{
+    "_id" : "8",
+    "name" : "Vanilla",
+    "short_description" : "Vanilla cake, Vanilla icing",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-vanilla.jpg",
+            "bigImgUrl" : "vanilla.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Vanilla cake, Vanilla icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 9 */
+{
+    "_id" : "9",
+    "name" : "Coconut",
+    "short_description" : "Coconut cake, Coconut icing, Toasted coconut topping",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-coconut.jpg",
+            "bigImgUrl" : "coconut.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Coconut",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Coconut cake, Coconut icing, Toasted coconut topping",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 10 */
+{
+    "_id" : "10",
+    "name" : "Lemon",
+    "short_description" : "Lemon cake, Lemon icing",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-lemon.jpg",
+            "bigImgUrl" : "lemon.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Lemon",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Lemon cake, Lemon icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 11 */
+{
+    "_id" : "11",
+    "name" : "Chocolate",
+    "short_description" : "Chocolate cake, Chocolate icing, Chocolate sprinkles",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-chocolate.jpg",
+            "bigImgUrl" : "chocolate.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Chocolate cake, Chocolate icing, Chocolate sprinkles",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 12 */
+{
+    "_id" : "12",
+    "name" : "Mint",
+    "short_description" : "Mint chocolate cake, Mint icing, Chocolate sprinkles",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-mintchocolate.jpg",
+            "bigImgUrl" : "mintchocolate.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Mint Chocolate",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Mint chocolate cake, Mint icing, Chocolate sprinkles",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 13 */
+{
+    "_id" : "13",
+    "name" : "Red Velvet",
+    "short_description" : "Red velvet cake, Cream cheese icing",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-redvelvet.jpg",
+            "bigImgUrl" : "redvelvet.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Red velvet cake, Cream cheese icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 14 */
+{
+    "_id" : "14",
+    "name" : "Highhat",
+    "short_description" : "Chocolate & vanilla cake, Chocolate & vanilla icing, Dipped in chocolate",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-highhat.jpg",
+            "bigImgUrl" : "highhat.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate & Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Chocolate & vanilla cake, Chocolate & vanilla icing, Dipped in chocolate",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 15 */
+{
+    "_id" : "15",
+    "name" : "Funfetti",
+    "short_description" : "Vanilla cake, Sprinkles filling, Vanilla icing, Sprinkle topping",
+    "available_package" : "12 standard or 24 mini",
+    "available_size" : "Standard and Mini",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }, 
+        {
+            "id" : 2,
+            "package" : 24,
+            "name" : "24 mini cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-funfetti.jpg",
+            "bigImgUrl" : "funfetti.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "cupcakes",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Funfetti",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Vanilla cake, Sprinkles filling, Vanilla icing, Sprinkle topping",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }, 
+        {
+            "id" : 2,
+            "size" : "Mini"
+        }
+    ]
+}
+
+/* 16 */
+{
+    "_id" : "16",
+    "name" : "Rose",
+    "short_description" : "Vanilla cake, Vanilla icing",
+    "available_package" : "12 standard",
+    "available_size" : "Standard",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-rose.jpg",
+            "bigImgUrl" : "rose.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "flower",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Vanilla cake, Vanilla icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }
+    ]
+}
+
+/* 17 */
+{
+    "_id" : "17",
+    "name" : "Blossom",
+    "short_description" : "Coconut cake, Coconut icing",
+    "available_package" : "12 standard",
+    "available_size" : "Standard",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-blossom.jpg",
+            "bigImgUrl" : "blossom.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "flower",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Coconut",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Coconut cake, Coconut icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }
+    ]
+}
+
+/* 18 */
+{
+    "_id" : "18",
+    "name" : "Sunflower",
+    "short_description" : "Lemon cake, lemon icing",
+    "available_package" : "12 standard",
+    "available_size" : "Standard",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-sunflower.jpg",
+            "bigImgUrl" : "sunflower.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "flower",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Lemon",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Lemon cake, lemon icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }
+    ]
+}
+
+/* 19 */
+{
+    "_id" : "19",
+    "name" : "Rosette",
+    "short_description" : "Chocolate cake, chocolate icing",
+    "available_package" : "12 standard",
+    "available_size" : "Standard",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-rosette.jpg",
+            "bigImgUrl" : "rosette.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "flower",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Chocolate cake, chocolate icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }
+    ]
+}
+
+/* 20 */
+{
+    "_id" : "20",
+    "name" : "Ribbon Roses",
+    "short_description" : "Red velvet cake, Cream cheese icing",
+    "available_package" : "12 standard",
+    "available_size" : "Standard",
+    "type_name" : "cupcakes",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 12,
+            "name" : "12 standard cupcakes"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-ribbonroses.jpg",
+            "bigImgUrl" : "ribbonroses.jpg"
+        }
+    ],
+    "category" : "cupcake",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }, 
+        {
+            "id" : 4,
+            "value" : "Four (4)"
+        }, 
+        {
+            "id" : 5,
+            "value" : "Five (5)"
+        }
+    ],
+    "type" : "flower",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 3.5
+        }, 
+        {
+            "id" : 2,
+            "value" : 2.0
+        }
+    ],
+    "description" : "Red velvet cake, Cream cheese icing",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Standard"
+        }
+    ]
+}
+
+/* 21 */
+{
+    "_id" : "21",
+    "name" : "Snowflake",
+    "type_name" : "cake",
+    "short_description" : "Snowflake Cake",
+    "available_package" : "1 cake",
+    "available_size" : "8 inch",
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-snowflakecake.jpg",
+            "bigImgUrl" : "snowflakecake.jpg"
+        }
+    ],
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 1,
+            "name" : "1 cake"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }
+    ],
+    "type" : "seasonal",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Punche Creme",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "Light Fruit",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 50.0
+        }
+    ],
+    "description" : "This is some good  cake... you will eat it!",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "10 inch",
+            "value" : 10,
+            "price" : 0.0
+        }
+    ]
+}
+
+/* 22 */
+{
+    "_id" : "22",
+    "name" : "Personal",
+    "type_name" : "cake",
+    "short_description" : "Personal Cake",
+    "available_package" : "1 cake",
+    "available_size" : "6 inch",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 1,
+            "name" : "1 cake"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-personalcake.jpg",
+            "bigImgUrl" : "personalcake.jpg"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }
+    ],
+    "type" : "personal",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "Chocolate",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "Vanilla",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 3,
+            "value" : "Red Velvet",
+            "price" : 0.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 65.0
+        }
+    ],
+    "description" : "This is some good  cake... you will eat it!",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "6 inch",
+            "value" : 10,
+            "price" : 0.0
+        }
+    ]
+}
+
+/* 23 */
+{
+    "_id" : "23",
+    "name" : "Bread Pudding",
+    "type_name" : "pudding",
+    "short_description" : "Bajan bread pudding",
+    "available_package" : "1 pan",
+    "available_size" : "8 inch",
+    "package_sizes" : [ 
+        {
+            "id" : 1,
+            "package" : 1,
+            "name" : "1 pan"
+        }
+    ],
+    "images" : [ 
+        {
+            "miniImgUrl" : "mini-breadpudding.jpg",
+            "bigImgUrl" : "breadpudding.jpg"
+        }
+    ],
+    "category" : "collection",
+    "quantity" : [ 
+        {
+            "id" : 1,
+            "value" : "One (1)"
+        }, 
+        {
+            "id" : 2,
+            "value" : "Two (2)"
+        }, 
+        {
+            "id" : 3,
+            "value" : "Three (3)"
+        }
+    ],
+    "type" : "seasonal",
+    "flavours" : [ 
+        {
+            "id" : 1,
+            "value" : "w/o vanilla rum sauce",
+            "price" : 0.0
+        }, 
+        {
+            "id" : 2,
+            "value" : "w/ 8oz vanilla rum sauce (+$8.00)",
+            "price" : 36.0
+        }, 
+        {
+            "id" : 3,
+            "value" : "w/ 16oz vanilla rum sauce (+$15.00)",
+            "price" : 43.0
+        }
+    ],
+    "price" : [ 
+        {
+            "id" : 1,
+            "value" : 28.0
+        }
+    ],
+    "description" : "Bajan bread pudding",
+    "sizes" : [ 
+        {
+            "id" : 1,
+            "size" : "Individual (Muffin)",
+            "value" : 3,
+            "price" : 0.0
+        }
+    ]
+}

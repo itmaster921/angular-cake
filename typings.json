@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "angular-file-upload": "registry:dt/angular-file-upload#0.0.0+20160316155526",
+    "angular-protractor": "registry:dt/angular-protractor#1.5.0+20160425143459",
+    "cachefactory": "registry:dt/cachefactory#1.4.0+20160521151552",
+    "underscore": "registry:dt/underscore#1.7.0+20160505190121"
+  }
+}

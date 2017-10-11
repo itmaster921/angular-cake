@@ -1,0 +1,21 @@
+{
+  "version": "v4",
+  "repo": "Angelo510/Angular-Cake",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular-route.d.ts": {
+      "commit": "3e77642fd96ddef451d39d28533d78d9f87865f5"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "3e77642fd96ddef451d39d28533d78d9f87865f5"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "3e77642fd96ddef451d39d28533d78d9f87865f5"
+    },
+    "underscore/underscore.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    }
+  }
+}

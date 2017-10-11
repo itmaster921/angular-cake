@@ -1,0 +1,43 @@
+<uib-carousel interval="vm.myInterval">
+  <uib-slide ng-repeat="slide in vm.slides" active="vm.active" index="$index">
+    <a href="#/{{slide.url}}">
+      <img ng-src="{{slide.image}}" style="margin:auto;" />
+    </a>
+  </uib-slide>
+</uib-carousel>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 site-content centre" style="padding:4%;">
+	<h2 class="site-title">Sucrées Desserts</h2>
+	<p>Looking to adopt a new healthy lifestyle but do not want to sacrifice your favourite desserts.
+Fear not... Sucrées Desserts is here to cater to your sweet tooth desires.</p>
+
+<p>Whether you opt for regular, gluten-free, dairy-free or vegan, there is something for you.
+
+Sucrées Desserts offers a range of cakes, cupcakes, cheesecakes with normal, exotic or customized flavours, banana bread and bread pudding.</p>
+
+<p>Make your desserts extra special with sugar/gum paste or fondant decorations.</p>
+</div>
+
+<div class="row cake-portfolio" style="margin: 0">
+
+	<div class="col-lg-6 col-md-12 col-sm-12">
+		<a href="#/collections"><img class="img-responsive" ng-src="assets/images/cakes/paradise_home.jpg"></a>
+	</div>
+	<div class="col-lg-6 col-md-12 col-sm-12">
+    <a href="#/menu"><img class="img-responsive" ng-src="assets/images/cakes/pinacolada_home.jpg"></a>
+	</div>
+
+</div>
+
+<!--<div class="row cake-portfolio" style="margin: 0">
+
+	<div class="col-lg-6 col-md-12 col-sm-12" style="padding: 2%">
+		<h3>Heading of Something</h3>
+		<p>Words of something....</p>
+	</div>
+	<div class="col-lg-6 col-md-12 col-sm-12" style="padding: 2%">
+		<h3>Heading of Something</h3>
+		<p>Words of something....</p>
+	</div>
+
+</div>-->

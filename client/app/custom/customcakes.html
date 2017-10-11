@@ -1,0 +1,146 @@
+<div class="cake-list">
+
+<h3 class="centre">Custom Cakes</h3>
+
+<p class="sub-title">Sucrées Desserts offers custom orders upon request. Please fill out the form or message us on Facebook with your requirements.</p>
+
+<div class="cake-portfolio">
+
+	<div class="centre">
+		<ng-gallery images="vm.galleryImages" thumbs-num="8"></ng-gallery>
+	</div>
+
+	<div class="centre" style="padding: 1%">
+		<a href="https://www.facebook.com/SucreesDesserts/photos/?tab=album&album_id=1442573252649716"
+			 target="_blank"
+			 class="btn btn-special">See More Cakes
+		</a>
+	</div>
+
+	<div class="col-lg-6 col-md-12 col-sm-12">
+		<img ng-src="../assets/images/cakes/custom-hellokitty.jpg">
+	</div>
+	<div class="col-lg-6 col-md-12 col-sm-12">
+		<img ng-src="../assets/images/cakes/custom-bowcupcakes.jpg">
+		<!--<img ng-src="http://placehold.it/940x600">-->
+	</div>
+
+</div>
+
+<div class="row container"><!-- row -->
+
+	<div>
+
+	<div class="col-lg-6 col-md-6 col-xs-12"><!-- column -->
+
+			<h4 class="text-uppercase">Making a Request</h4>
+			<p>What kind of cake do you want?</p>
+			<p>Be sure to include your Cake Requirements - flavour, size, decorations, allergies, inscription etc.</p>
+
+			<h4 class="text-uppercase">Pan Sizes</h4>
+			<p>Available pan shapes and approx. serving sizes</p>
+		<div class="row"><!-- row -->
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><!-- column -->
+			<h4>Round</h4>
+				<p>8" (24 servings)</p>
+				<p>9" (30 servings)</p>
+				<p>10" (38 servings)</p>
+				<p>13" (66 servings)</p>
+
+			<h4>Square</h4>
+			<p>8" (32 servings)</p>
+			<p>10" (50 servings)</p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><!-- column -->
+			<h4>Hearts</h4>
+			<p>6" (12 servings)</p>
+			<p>10" (36 servings)</p>
+
+			<h4>Rectangle</h4>
+			<p>9"x13"x2" (50 servings)</p>
+			<p>18"x13" (100 servings)</p>
+		</div>
+	</div>
+			<h4>Terms & Conditions</h4>
+			<ul>
+				<li><p>Orders must be made at least ONE (1) week in advance.</p></li>
+				<li><p>All orders over $85 require a 50% deposit. The deposit is non-refundable.</p></li>
+				<li><p>Any cancellations to an order must be done at least 2 days before the due date.</p></li>
+				<li><p>A late fee of $20-$25 is added when orders are made in 3 days or less from the due date.</p></li>
+			</ul>
+
+	</div><!-- // column -->
+
+	<div class="col-lg-5 col-md-5 col-xs-10"><!-- column -->
+
+		<h4 class="text-uppercase">Give us your request</h4>
+
+		<form ng-submit="vm.saveCakeOrder(order, picFile)" name="contactOrderForm" novalidate><!-- form -->
+			<div class="form-group">
+				<label for="fName">First Name</label>
+				<input type="text" ng-model="order.fName" class="form-control" name="fName" placeholder="First Name" required>
+				<div ng-show="contactOrderForm.fName.$touched">
+					<p ng-show="contactOrderForm.fName.$error.required" class="help-block">Your first name is required</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="lName">Last Name</label>
+				<input type="text" ng-model="order.lName" class="form-control" name="lName" placeholder="Last Name" required>
+				<div ng-show="contactOrderForm.lName.$touched">
+					<p ng-show="contactOrderForm.lName.$error.required" class="help-block">Your last name is required</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" ng-model="order.email" class="form-control" name="email" placeholder="sucreesdesserts@gmail.com" required>
+				<div ng-show="contactOrderForm.email.$touched">
+					<p ng-show="contactOrderForm.email.$error.required" class="help-block">Your email is required</p>
+					<p ng-show="contactOrderForm.email.$error.email" class="help-block">Is your email correct?</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="cellNo">Phone No.</label>
+				<input type="text" ng-model="order.cellNo" class="form-control" ng-minlength="8" ng-maxlength="8" name="cellNo" placeholder="269-5987" required>
+				<div ng-show="contactOrderForm.cellNo.$touched">
+					<p ng-show="contactOrderForm.cellNo.$error.required" class="help-block">Your phone no. is required</p>
+					<p ng-show="contactOrderForm.cellNo.$error.maxlength" class="help-block">Is your phone no. correct?</p>
+					<p ng-show="contactOrderForm.cellNo.$error.minlength" class="help-block">Is your phone no. correct?</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<!--<input type="file" ng-file-select="uploadSelectedFile(order.files)" accept="'image/*'">-->
+				<label for="imgFile">Send an example photo?</label>
+				<input type="file"
+							class="form-control"
+							ngf-select
+							ng-model="picFile"
+							name="file"
+							ngf-pattern="'image/*'"
+							ngf-accept="'image/*'"
+							ngf-max-size="2MB"
+             	ngf-model-invalid="errorFile">
+			</div>
+			<div class="form-group">
+				<label for="cakeRequest">Cake Requirements</label>
+				<textarea ng-model="order.cakeRequest" class="form-control" name="cakeRequest" rows="4" placeholder="flavour, size, decorations, allergies, inscription etc."></textarea>
+			</div>
+			<div class="form-group">
+				<label for="collectDate">When do you want it?</label>
+				<input type="text" ng-model="order.collectDate" class="form-control" placeholder="Click to select date" ng-click="vm.openDatePicker()">
+				<br>
+				<date-picker ng-show="vm.showDatePicker" ng-model="order.collectDate" on-date-selected="vm.closeDatePicker()"></date-picker>
+			</div>
+
+
+			<div>
+				<button type="submit" ng-disabled="vm.hasErrors || contactOrderForm.$invalid" class="btn-special">Complete Order</button>
+			</div>
+		</form><!-- // form -->
+
+	</div><!-- // column -->
+
+</div><!-- // row -->
+
+</div>
+
+</div>

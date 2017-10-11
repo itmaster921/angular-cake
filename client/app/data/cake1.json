@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "name": "Sweet Paradise Cupcakes",
+    "short_description": "Blossom Cupcakes",
+    "available_package": "6 or 12 cupcakes",
+    "available_size": "Standard",
+    "quantity": [
+			{ "id": 1, "value": "One (1)" },
+			{ "id": 2, "value": "Two (2)" },
+			{ "id": 3, "value": "Three (3)" },
+			{ "id": 4, "value": "Four (4)" },
+			{ "id": 5, "value": "Five (5)" }
+		],
+    "type": "cupcake",
+    "flavours": [
+      { "id": 1, "value": "Chocolate", "price": 0.00 },
+      { "id": 2, "value": "Mint Chocolate", "price": 0.00 },
+      { "id": 3, "value": "Coconut", "price": 0.00 },
+      { "id": 4, "value": "Red Velvet", "price": 0.00 },
+      { "id": 5, "value": "Lemon", "price": 0.00 },
+      { "id": 6, "value": "Vanilla", "price": 0.00 },
+      { "id": 7, "value": "Baileys (Alcoholic)", "price": 0.00 }
+    ],
+    "colours": [
+      { "id": 1, "value": "Red" },
+      { "id": 2, "value": "Orange" },
+      { "id": 3, "value": "Royal Blue" },
+      { "id": 4, "value": "Yellow" },
+      { "id": 5, "value": "Sky Blue" },
+      { "id": 6, "value": "Pink" },
+      { "id": 7, "value": "Purple" },
+      { "id": 8, "value": "Fuchsia" }
+    ],
+		"price": 8.00,
+		"description": "These are good cupakes... you will eat them!",
+    "sizes": [
+            { "id": 1, "size": "Individual (Muffin)", "value": 3, "price": 0.00 },
+            { "id": 2, "size": "6 inch", "value": 6, "price": 12.00 },
+            { "id": 3, "size": "8 inch", "value": 8, "price": 22.00 },
+            { "id": 4, "size": "12 inch", "value": 12, "price": 32.00 }
+        ]
+	}
+]

@@ -1,0 +1,61 @@
+<div class="container">
+	<div class="page-header"> <!-- page header -->
+	  <h1>{{vm.cakeslist.name}} <small>{{vm.cakeslist.available_package}} cupcakes</small></h1>
+		<p>{{vm.cakeslist.description}}</p>
+	</div><!-- // page header -->
+	<div class="row"><!-- row -->
+		<div class="col-lg-8 col-md-8 col-xs-12"><!-- column -->
+			<h3></h3>
+			<img class="img-responsive" ng-src="../assets/images/cakes/{{vm.cakeslist.images[0].bigImgUrl}}" alt="{{vm.cakeslist.name}}"/>
+		</div><!-- // column -->
+
+		<div class="order-form col-lg-4 col-md-4 col-xs-12"><!-- column -->
+
+			<h3>Your Order</h3>
+			<form name="cakeOrderForm" ng-submit="vm.nextOrderPhase(vm.order, '/cupcake-order/' + vm.cakeslist._id)" novalidate><!-- form -->
+
+				<div class="form-group">
+					<label for="package">Package Size: </label>
+			    <select name="package"
+									ng-options="pack.name for pack in vm.cakeslist.package_sizes track by pack.id"
+									ng-model="vm.order.packageID"
+									ng-change="vm.toggleQuantity(vm.order.quantityID, vm.order.packageID)">
+			    </select>
+				</div>
+
+				<div class="form-group">
+					<label for="quantity">Quantity: </label>
+						<select name="quantity"
+										ng-options="number.value for number in vm.cakeslist.quantity track by number.id"
+										ng-model="vm.order.quantityID"
+										ng-change="vm.toggleQuantity(vm.order.quantityID, vm.order.packageID)">
+				    </select>
+
+				</div>
+
+				<!--<div class="form-group">
+					<label for="flavours">Flavours: </label>
+			    <select name="flavours"
+									ng-model="vm.order.flavoursID"
+									ng-options="flavour.value for flavour in vm.cakeslist.flavours track by flavour.id">
+			    </select>
+				</div>-->
+
+				<!--<div class="form-group">
+					<label for="colours">Cupcake Size: </label>
+						<select name="sizes"
+										ng-model="vm.order.sizeID"
+										ng-options="size.size for size in vm.cakeslist.sizes track by size.id"
+										ng-change="vm.toggleQuantity(vm.order.quantityID, vm.order.packageID, vm.order.sizeID)">
+				    </select>
+				</div>-->
+
+				<h4>Total: {{vm.order.cakePrice | currency }}</h4>
+
+				<div>
+					<button type="submit" ng-disabled="vm.hasErrors" class="btn-special">Order Your Cupcakes</button>
+				</div>
+			</form><!-- // form -->
+		</div><!-- // column -->
+	</div><!-- // row -->
+</div>

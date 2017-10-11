@@ -1,0 +1,66 @@
+<div class="cake-list">
+
+	<section ng-init="vm.getCakeListData('collection')">
+
+		<ul class="row cake-menu">
+			<h3>Sweet Paradise</h3>
+			<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'sweetparadise'}">
+				<a href="#/collections/paradise/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="row cake-menu">
+			<h3>Blissful Celebrations</h3>
+			<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'personal'}">
+				<a href="#/collections/celebration/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="row cake-menu">
+			<h3>Quartets</h3>
+			<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'quartet'}">
+				<a href="#/collections/quartets/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul>
+
+
+		<!-- <ul class="row cake-menu">
+			<h3>Seasonal</h3>
+			<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'seasonal'}">
+				<a href="#/collections/seasonal/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul> -->
+
+		<!-- <ul class="row cake-menu">
+			<h3 style="color: #5cb85c">Christmas <i class="fa fa-tree" aria-hidden="true"></i></h3>
+			<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="cake in vm.cakeslists | filter: {type: 'christmas'}">
+				<a href="#/collections/holiday/{{cake._id}}">
+					<img class="img-responsive" ng-src="../assets/images/cakes/{{cake.images[0].miniImgUrl}}" alt="{{cake.name}}" />
+					<h4>{{cake.name}}</h4>
+					<p>{{cake.description}}</p>
+				</a>
+			</li>
+		</ul> -->
+
+
+
+
+	</section>
+
+</div>
